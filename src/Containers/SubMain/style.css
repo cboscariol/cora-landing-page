@@ -1,0 +1,32 @@
+.sub-main-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 66px;
+  padding-bottom: 129px;
+  padding-left: 175px;
+}
+
+.sub-main-container img {
+  width: 165.93px;
+  height: 166.06px;
+  margin-top: 30px;
+  margin-right: 110px;
+}
+
+.sub-text-box {
+  max-width: 644px;
+}
+
+.sub-text-box :first-child {
+  font-weight: normal;
+  font-size: 3.4rem;
+  line-height: 48px;
+  color: var(--black);
+  margin-bottom: 47px;
+}
+
+.sub-text-box :last-child {
+  font-weight: 800;
+  font-size: 2.0rem;
+  color: var(--primary-color);
+}

@@ -1,10 +1,15 @@
+.main {
+  background: linear-gradient(180deg, #F0F4F8 0%, rgba(240, 244, 248, 0) 100%);
+}
+
 .main-container {
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  padding: 42px 64px 42px 175px;
-  background: linear-gradient(180deg, #F0F4F8 0%, rgba(240, 244, 248, 0) 100%);
+  padding-top: 42px;
+  padding-bottom: 124px;
+  padding-left: 175px;
 }
 
 .main-img {
@@ -12,12 +17,12 @@
   max-height: 520.56px;
 }
 
-.main {
+.main-text {
   max-width: 432px;
   padding-top: 47px;
 }
 
-.main h1 {
+.main-text h1 {
   font-size: 6.9rem;
   font-weight: normal;
   margin-bottom: 49px;

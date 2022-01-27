@@ -5,13 +5,15 @@ import './style.css'
 
 function Main() {
   return (
-    <Container className='main-container'>
-      <div className='main'>
-        <h1>Lorem ipsum dolor sit adipiscing elit.</h1>
-        <Button textButton='Quero Ser Cora' color='secondary' />
-      </div>
-      <img className='main-img' src={bannerImage} alt="banner" />
-    </Container>
+    <div className='main'>
+      <Container className='main-container'>
+        <div className='main-text'>
+          <h1>Lorem ipsum dolor sit adipiscing elit.</h1>
+          <Button textButton='Quero Ser Cora' color='secondary' />
+        </div>
+        <img className='main-img' src={bannerImage} alt="banner" />
+      </Container>
+    </div>
   );
 }
 
