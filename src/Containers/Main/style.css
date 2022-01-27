@@ -1,0 +1,24 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 42px 64px 42px 175px;
+  background: linear-gradient(180deg, #F0F4F8 0%, rgba(240, 244, 248, 0) 100%);
+}
+
+.main-img {
+  max-width: 637px;
+  max-height: 520.56px;
+}
+
+.main {
+  max-width: 432px;
+  padding-top: 47px;
+}
+
+.main h1 {
+  font-size: 6.9rem;
+  font-weight: normal;
+  margin-bottom: 49px;
+}
