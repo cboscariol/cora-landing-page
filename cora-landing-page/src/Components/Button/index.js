@@ -10,11 +10,11 @@ function Button(props) {
   }
 
 
-  return <>
+  return (
     <button className={`button ${getColorClass(color)}`}>
       {props.textButton}
     </button>
-  </>;
+  );
 }
 
 export default Button;
