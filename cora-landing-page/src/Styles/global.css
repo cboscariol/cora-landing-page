@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #FE3E6D;
+  --primary-color-light: #FD7B94;
+  --black: #202020;
+  --primary-gray: #6B7076;
+  --secondary-gray: #C7CBCF;
+  --pure-white: #FFFFFF;
+  --background: #E5E5E5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    
+  }
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../assets/font/Metropolis-Regular.otf");
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Avenir";
+}
