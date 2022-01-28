@@ -1,6 +1,6 @@
 import './style.css'
 import Button from '../../Components/Button';
-import logo from '../../assets/images/logo.svg'
+import logo from './assets/logo.svg'
 import Container from '../../Components/Container';
 
 

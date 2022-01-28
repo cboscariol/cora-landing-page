@@ -1,5 +1,5 @@
 import Button from '../../Components/Button'
-import initialImage from '../../assets/images/initial-image.png'
+import initialImage from './assets/initial-image.png'
 import Container from '../../Components/Container';
 import './style.css'
 

@@ -1,6 +1,6 @@
 import './style.css'
 import Container from '../../Components/Container'
-import secondaryLogo from '../../assets/images/secondary-logo.png'
+import secondaryLogo from './assets/secondary-logo.png'
 
 
 function SubMain() {
