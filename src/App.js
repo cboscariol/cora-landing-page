@@ -4,6 +4,7 @@ import Main from './Containers/Main';
 import SubMain from './Containers/SubMain';
 import Banner from './Containers/Banner'
 import About from './Components/About';
+import Footer from './Containers/Footer'
 import about01 from './assets/image/about-01.png'
 import about02 from './assets/image/about-02.png'
 
@@ -25,6 +26,7 @@ function App() {
       ultricies nisl vitae, tempus felis. Proin lacinia justo non elit semper consequat.'
         image={about02}
         className="flex-reverse" />
+      <Footer />
     </div>
   );
 }

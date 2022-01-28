@@ -1,0 +1,35 @@
+.footer {
+  height: 64px;
+  background-color: var(--pure-white);
+  display: flex;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 175px;
+  margin: 0;
+  min-width: 100%;
+}
+
+.social-media-nav ul {
+  list-style: none;
+  display: flex;
+  padding-left: 99px;
+}
+
+.social-media-nav li {
+  padding-left: 48px;
+}
+
+.footer-container span {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.strong {
+  color: var(--primary-color);
+}
