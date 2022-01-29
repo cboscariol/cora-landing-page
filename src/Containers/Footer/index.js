@@ -1,11 +1,10 @@
-import Copyright from './Footer-Copyright';
-import FooterNav from './Footer-Nav';
-
+import Copyright from './Copyright';
+import Navigation from './Navigation';
 
 function Footer() {
   return (
     <>
-      <FooterNav />
+      <Navigation />
       <Copyright />
     </>
   );

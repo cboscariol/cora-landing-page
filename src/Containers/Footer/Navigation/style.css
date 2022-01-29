@@ -1,0 +1,32 @@
+.nav {
+  background-color: var(--black);
+}
+
+.nav-container {
+  padding: 120px 324px 152px 175px;
+}
+
+.nav-container > :first-child, .nav-container > :last-child {
+  display: flex;
+}
+
+.nav-container > :first-child {
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.download-app-btns {
+  display: flex;
+}
+
+.download-app {
+  padding-right: 110px;
+}
+
+.download-app h4 {
+  font-weight: 800;
+  font-size: 2.0rem;
+  line-height: 3.0rem;
+  color: var(--pure-white);
+  padding-bottom: 16px;
+}

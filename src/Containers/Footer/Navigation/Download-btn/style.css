@@ -1,0 +1,19 @@
+.download-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid var(--secondary-gray);
+  padding: 14px 30px;
+  color: var(--secondary-gray);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  margin-right: 28px;
+}
+
+.download-btn img {
+  width: 14px;
+  height: 16px;
+  margin-right: 13px;
+}

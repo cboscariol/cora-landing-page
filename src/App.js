@@ -25,7 +25,7 @@ function App() {
         text='Aenean pretium varius posuere. Aenean porttitor elementum tristique. Etiam eget metus lobortis, 
       ultricies nisl vitae, tempus felis. Proin lacinia justo non elit semper consequat.'
         image={about02}
-        className="flex-reverse" />
+        reverse />
       <Footer />
     </div>
   );

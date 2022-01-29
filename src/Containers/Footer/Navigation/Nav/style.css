@@ -1,0 +1,26 @@
+.footer-navigate-box h4{
+  font-weight: 800;
+  font-size: 2.0rem;
+  line-height: 3.0rem;
+  color: var(--pure-white);
+  padding-bottom: 16px;
+}
+
+.footer-navigate-box ol {
+  list-style: none;
+}
+
+.footer-navigate-box a{
+  all: unset;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 3.8rem;
+  color: var(--secondary-gray);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
+}
+
+.footer-navigate-box a:hover {
+  border-color: var(--secondary-gray);
+}

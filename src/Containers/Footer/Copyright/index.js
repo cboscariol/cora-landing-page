@@ -12,17 +12,17 @@ function Footer() {
         <div className='social-media-nav'>
           <ul>
             <li>
-              <a href="https://www.instagram.com/seja.cora/">
+              <a href="https://www.instagram.com/seja.cora/" target="_blank">
                 <img src={instagramIcon} alt="instagram" />
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/seja.cora/">
+              <a href="https://www.facebook.com/seja.cora/" target="_blank">
                 <img src={facebookIcon} alt="facebook" />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/seja-cora/">
+              <a href="https://www.linkedin.com/company/seja-cora/" target="_blank">
                 <img src={linkedinIcon} alt="linkedin" />
               </a>
             </li>
