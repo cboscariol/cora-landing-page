@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 658px;
-  
 }
 
 .banner-container h2 {
@@ -43,7 +42,6 @@
   .banner-container {
     padding: 0;
   }
-  
 }
 
 @media (min-width: 1225px) {

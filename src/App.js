@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './Containers/Header';
 import Main from './Containers/Main';
 import SubMain from './Containers/SubMain';

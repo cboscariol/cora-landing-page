@@ -26,8 +26,6 @@ function Navigation() {
           </div>
           <Nav title='Transparência' links={['Termos e condições', 'Política de privacidade']} />
         </div>
-
-
       </Container>
     </div>
   );

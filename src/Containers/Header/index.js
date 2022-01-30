@@ -6,7 +6,6 @@ import menuOpen from './assets/menu-burguer.svg'
 import closeMenu from './assets/close.svg'
 import { useState } from 'react'
 
-
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -17,8 +16,9 @@ function Header() {
   return (
     <header className='header'>
       <Container className='header-container'>
-
-        <img className='header-container-img' src={logo} alt="Cora" />
+        <a href="#">
+          <img className='header-container-img' src={logo} alt="Cora" />
+        </a>
 
         <div className={`header-menu ${showMenu ? 'open' : ''}`}>
           <ul className='hearder-navigate'>
@@ -38,9 +38,7 @@ function Header() {
         <button className='responsive-menu-button' onClick={toggleMenu}>
           <img src={showMenu ? closeMenu : menuOpen} alt="menu" />
         </button>
-
       </Container>
-
     </header>
   );
 }

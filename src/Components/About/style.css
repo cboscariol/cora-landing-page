@@ -7,8 +7,7 @@
 
 .flex-reverse {
   flex-direction: row-reverse;
-} 
-  
+}
   
 .about-container img {
   max-width: 421px;
@@ -68,7 +67,7 @@
   }
 
   .about-text-box {
-  width: 532px;
+    width: 532px;
   }
 
   .flex-reverse {

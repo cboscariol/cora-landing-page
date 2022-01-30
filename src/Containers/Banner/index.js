@@ -9,7 +9,6 @@ function Banner() {
         <p>Quis rutrum sapien</p>
       </Container>
     </div>
-
   );
 }
 

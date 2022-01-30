@@ -11,7 +11,6 @@ function Nav(props) {
           </li>
         ))}
       </ol>
-
     </div>
   );
 }
