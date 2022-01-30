@@ -12,8 +12,19 @@
   margin-right: 28px;
 }
 
+.download-btn:hover {
+  color: var(--pure-white);
+  border: 1px solid var(--pure-white);
+}
+
 .download-btn img {
   width: 14px;
   height: 16px;
   margin-right: 13px;
+}
+
+@media (max-width: 1224px) {
+  .download-btn {
+    margin: 28px;
+  }
 }

@@ -6,14 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 42px;
-  padding-bottom: 124px;
-  padding-left: 175px;
+  
 }
 
 .main-img {
-  max-width: 637px;
-  max-height: 520.56px;
+  width: 52%;
 }
 
 .main-text {
@@ -25,4 +22,33 @@
   font-size: 6.9rem;
   font-weight: normal;
   margin-bottom: 49px;
+}
+
+@media (max-width: 425px) {
+  .main-text h1 {
+    font-size: 3.9rem;
+  }
+}
+
+@media (max-width: 1224px) {
+  .main-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1225px) {
+  .main-container {
+    padding-top: 42px;
+    padding-bottom: 124px;
+    padding-left: 175px;
+  }
 }
